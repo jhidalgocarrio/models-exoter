@@ -1,0 +1,19 @@
+#sensors definition SMURF file for "exoter", 20161010_13:44
+
+sensors:
+- aperture_angle_h: 50
+  aperture_angle_v: 50
+  depth_image: 'false'
+  hud_idx: 0
+  link: camera_left
+  name: stereocam_left
+  show_cam: 'true'
+  type: CameraSensor
+- aperture_angle_h: 50
+  aperture_angle_v: 50
+  depth_image: 'false'
+  hud_idx: 1
+  link: camera_right
+  name: stereocam_right
+  show_cam: 'true'
+  type: CameraSensor

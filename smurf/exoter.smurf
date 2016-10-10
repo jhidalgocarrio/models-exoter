@@ -1,0 +1,12 @@
+# main SMURF file of model "exoter"
+# created with Phobos 0.7 - https://github.com/rock-simulation/phobos
+
+SMURF version: 0.7
+modelname: exoter
+date: '20161010_13:44'
+files:
+- ../urdf/exoter.urdf
+- exoter_collision.yml
+- exoter_materials.yml
+- exoter_motors.yml
+- exoter_sensors.yml

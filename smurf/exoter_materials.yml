@@ -1,0 +1,48 @@
+#materials definition SMURF file for "exoter", 20161010_13:44
+
+materials:
+- ambientColor:
+    b: 0
+    g: 0
+    r: 0
+  diffuseColor:
+    b: 0
+    g: 0
+    r: 0
+  name: exoter_black
+  shininess: 25.0
+  specularColor:
+    b: 0.5
+    g: 0.5
+    r: 0.5
+  users: 22
+- ambientColor:
+    b: 1.0
+    g: 0.799172
+    r: 0.649111
+  diffuseColor:
+    b: 1.0
+    g: 0.799172
+    r: 0.649111
+  name: exoter_body
+  shininess: 25.0
+  specularColor:
+    b: 0.5
+    g: 0.5
+    r: 0.5
+  users: 1
+- ambientColor:
+    b: 1.0
+    g: 1.0
+    r: 1.0
+  diffuseColor:
+    b: 1.0
+    g: 1.0
+    r: 1.0
+  name: exoter_white
+  shininess: 25.0
+  specularColor:
+    b: 0.5
+    g: 0.5
+    r: 0.5
+  users: 7
