@@ -492,6 +492,12 @@
         </geometry>
         <material name="exoter_white"/>
       </visual>
+      <collision name="collision_0_camera_assembly">
+        <origin xyz="-0.011215 -0.001045 0.061" rpy="0 0 0"/>
+        <geometry>
+          <box size="0.075013 0.157175 0.1385"/>
+        </geometry>
+      </collision>
     </link>
 
     <link name="camera_left">

@@ -1,4 +1,4 @@
-#motors definition SMURF file for "exoter", 20161010_13:44
+#motors definition SMURF file for "exoter", 20161010_14:21
 
 motors:
 - d: 0
@@ -27,6 +27,9 @@ motors:
   maxEffort: 200.0
   maxSpeed: 6.0
   maxValue: 1.57
+  mimic_motor: left_bogie
+  mimic_multiplier: -1.0
+  mimic_offset: 0
   minValue: -1.57
   name: fl_hinge
   p: 20.0
@@ -67,6 +70,9 @@ motors:
   maxEffort: 200.0
   maxSpeed: 6.0
   maxValue: 1.57
+  mimic_motor: right_bogie
+  mimic_multiplier: -1.0
+  mimic_offset: 0
   minValue: -1.57
   name: fr_hinge
   p: 20.0
@@ -107,6 +113,9 @@ motors:
   maxEffort: 200.0
   maxSpeed: 6.0
   maxValue: 1.57
+  mimic_motor: left_bogie
+  mimic_multiplier: -1.0
+  mimic_offset: 0
   minValue: -1.57
   name: ml_hinge
   p: 20.0
@@ -137,6 +146,9 @@ motors:
   maxEffort: 200.0
   maxSpeed: 6.0
   maxValue: 1.57
+  mimic_motor: right_bogie
+  mimic_multiplier: -1.0
+  mimic_offset: 0
   minValue: -1.57
   name: mr_hinge
   p: 20.0
@@ -207,6 +219,9 @@ motors:
   maxEffort: 200.0
   maxSpeed: 6.0
   maxValue: 1.57
+  mimic_motor: rear_bogie
+  mimic_multiplier: -1.0
+  mimic_offset: 0
   minValue: -1.57
   name: rl_hinge
   p: 20.0
@@ -247,6 +262,9 @@ motors:
   maxEffort: 200.0
   maxSpeed: 6.0
   maxValue: 1.57
+  mimic_motor: rear_bogie
+  mimic_multiplier: -1.0
+  mimic_offset: 0
   minValue: -1.57
   name: rr_hinge
   p: 20.0

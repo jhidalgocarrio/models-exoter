@@ -1,9 +1,12 @@
-#collision data definition SMURF file for "exoter", 20161010_13:44
+#collision data definition SMURF file for "exoter", 20161010_14:21
 
 collision:
 - bitmask: 1
   link: body
   name: collision_0_body
+- bitmask: 1
+  link: camera_assembly
+  name: collision_0_camera_assembly
 - bitmask: 1
   link: fl_motor
   name: collision_0_fl_motor
